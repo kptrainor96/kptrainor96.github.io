@@ -1,0 +1,69 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Archivo Black", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  }
+
+  h1 {
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: var(--light-blue);
+    background-color: var(--light-red);
+    text-shadow: 5px 5px 3px var(--dark-blue);
+    width: 100%;
+  }
+  
+  p,
+  li {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 20px 100px;
+    text-align: left;
+  }
+
+  img {
+    width: 100%
+  }
+
+  html {
+    background-color: var(--dark-blue);
+  }
+
+  body {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: var(--light-blue);
+    padding: 0;
+    border: 5px solid var(--dark-red);
+  }
+
+
+  /* Theme Colors */
+
+  :root {
+  --dark-blue: #0c005a;
+  --dark-red: #bc2525;
+  --light-red: #ff0000;
+  --light-blue: #eaeaea;
+  }
+
+  .dark-blue { 
+    background-color: var(--dark-blue); 
+  }
+    
+  .dark-red { 
+    background-color: var(--dark-red); 
+  }
+  
+  .light-red { 
+    background-color: var(--light-red); 
+  }
+  
+  .light-blue { 
+    background-color: var(--light-blue); 
+  }
